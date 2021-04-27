@@ -1,3 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.cool {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: background-color 1s;
+}
+
+.cool.red {
+    background: red;
+}
