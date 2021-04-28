@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rocket Launch Sequence</title>
+    
+    <link href="css/rocket-css.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="javascript/rocket-js.js"></script>
+
+</head>
+
+<body class="body-state1">
+    
+    
+<div class="left">
+        
+    <div class="state1">
+        <h1>Ground Control to Major Tom</h1>
+        <a href="#" class="button" onClick="changeState(2);launch();">Launch!</a>
+    </div>
+        
+    <div class="state2">
+        <h1 id="countdown">10</h1>
+        <h2 id="sequence1"> Bowie line 1</h2>
+        <h2 id="sequence2"> Bowie line 2</h2>
+        <h2 id="sequence3"> Bowie line 3</h2>
+        <a href="#" class="button" onClick="changeState(1);">ABORT!</a>
+    </div>
+    
+    <div class="state3">
+        <h1>Lift off</h1>
+    </div>
+    
+    <div class="state4">
+        <h1>Well Done!</h1>
+        <a href="#" class="button" onClick="changeState(1);">Again?</a>
+    </div>
+    
+    <div class="state5">
+        <h1>Major Tom?! Come in Major Tom!!</h1>
+        <a href="#" class="button" onClick="changeState(1);">Oh No!</a>
+    </div>
+</div>
+    <div class="right">
+        
+        <div class="ground">
+        </div>
+        
+        <div class="rocket">
+        </div>
+    </div>
+</body>
+</html>
